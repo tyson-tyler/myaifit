@@ -42,6 +42,17 @@ export default function Navbar({ className }: { className: string }) {
               </Button>
             </Link>
           </NavigationMenuItem>
+          {/* <NavigationMenuItem>
+            <Link href="http://localhost:8501/">
+              <Button
+                variant="ghost"
+                className="text-lg font-semibold rounded-xl hover:bg-neutral-100"
+                size="lg"
+              >
+                Food Calories Analyser
+              </Button>
+            </Link>
+          </NavigationMenuItem> */}
 
           {/* ABOUT */}
           <NavigationMenuItem>

@@ -1,4 +1,4 @@
-const steps_list: stepType[] = [
+const steps_list: StepType[] = [
   {
     id: "BasicInfoCard",
     icon: "📝",

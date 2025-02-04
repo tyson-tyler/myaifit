@@ -53,7 +53,7 @@ export default function getBMI({
   gender,
   fitness_goal,
 }: bmiType): responseType {
-  // calculate BMI
+  
   const height_meters = height / 100;
   const bmi = Math.floor(weight / (height_meters * height_meters));
   let status: 'healthy' | 'underweight' | 'overweight' | 'obese' = 'healthy';
